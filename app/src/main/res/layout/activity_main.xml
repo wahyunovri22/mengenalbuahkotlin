@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#81BC92">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buah Buahan"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_ceri"
+        android:layout_margin="15dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ceri"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#040404"/>
+    <ImageView
+        android:id="@+id/img_jambu"
+        android:layout_margin="15dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/jambu"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#040404"/>
+    <ImageView
+        android:id="@+id/img_strawberi"
+        android:layout_margin="15dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/strawberry"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#040404"/>
+    <ImageView
+        android:id="@+id/img_alpukat"
+        android:layout_margin="15dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/alpukat"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#040404"/>
+
+
+</LinearLayout>
